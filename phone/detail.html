@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html class="um landscape min-width-240px min-width-320px min-width-480px min-width-768px min-width-1024px">
+    <head>
+    <title></title>
+        <meta charset="utf-8">    
+        <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <link rel="stylesheet" href="css/fonts/font-awesome.min.css">
+        <link rel="stylesheet" href="css/ui-box.css">
+        <link rel="stylesheet" href="css/ui-base.css">
+        <link rel="stylesheet" href="css/ui-color.css">
+        <link rel="stylesheet" href="css/appcan.icon.css">
+        <link rel="stylesheet" href="css/appcan.control.css">
+        <link rel="stylesheet" href="detail/css/detail.css">
+    </head>
+    <body class="" ontouchstart>
+        <div class="bc-bg" tabindex="0" data-control="PAGE" id="Page">
+        <div class="uh bc-head  ubb bc-border" data-control="HEADER" id="Header">
+                <div class="ub">
+                    <div class="nav-btn" id="nav-left">
+                        <div class="ub-img1 icon-left ulev2" id="return">
+                        </div>
+                    </div>
+                    <h1 class="ut ub-f1 ulev-3 ut-s tx-c" tabindex="0">图书详细</h1>
+                    <div class="nav-btn" id="nav-right">
+                        <div class="ub-img1 icon-more ulev2">
+                        </div>
+                                     </div>
+                </div>
+            </div>
+            <!-- 图片布局 -->
+            <div id="slider" class="slider">
+                
+            </div>
+            
+            <div>小强书店（丰台区蒲黄榆店） <br>
+                <br>
+            <br>
+                                                营业时间:10：00-22：00 <br>
+                                                <br>
+            <br>
+                                                北京市丰台区蒲黄榆
+            </div>
+
+            <div class="bc-bg ub ub-ver ub-ac uinn-4a" data-control="FLEXBOXVER" id="ContentFlexVer">
+                <!-- 电话联系布局         -->
+                <div class="ub tel-h" id="">
+                    <div class="ub-f1">电话：</div>
+                    <div class="ub-f1" id="number">010-59851141</div>
+                    <div class="ub-img tel telwh " id="tel" ></div>
+                </div>
+                
+                    
+                </div>
+                <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            
+                 <p>简介<br>
+                                            小强书店是一家综合性的书店，主要经营各类图书、杂志和报纸。书店的藏书涵盖了文学、历史、科学、艺术、经济、管理、教育、儿童读物等多个领域，致力于为广大读者提供丰富的阅读选择和优质的服务。
+                </p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                
+                <hr />
+               
+
+                <div class="umar-t" id="">
+                    <div class="fort-8 margin-3">用户评论</div>
+                </div>
+                <!-- 评论区 -->
+                <div class="umar-t umar-1 t-align umar-b" id="message">
+                   
+                </div>
+                    <!-- 底部评论输入框 -->
+                    <div class="uh ubb bc-border" id="footer">
+                        <div class="ub ub-ac umar-a">
+                            <div class="ub uba  ub-f1 bc-border uc-al umar-1">
+                                <!-- 输入框 -->
+                                <div class="sc-bg-active uinput ub ub-f1 bc-border uba">
+                                    <input olaceholder="请输入评论信息" id="plneirong" type="text" class="ub-f1">
+                                    
+                                </div>
+                                <!-- 评论按钮 -->
+                                <div class="ub ulev0 ub-ac uc-a1 ub-pc  foot-btn umar-r wh" id="pinglun">
+                                    <div class="ub b-cor">评论</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+            
+            
+           
+        <script src="js/appcan.js"></script>
+        <script src="js/appcan.control.js"></script>
+        <script src="js/appcan.scrollbox.js"></script>
+        <script src="js/template.import.js"></script>
+		<script src="js/appcan.listview.js"></script>
+		<script src="js/appcan.optionList.js"></script>
+		<script src="js/appcan.slider.js"></script>
+		<script src="js/appcan.tab.js"></script>
+		<script src="js/appcan.treeview.js"></script>
+        <script src="detail/js/detail.js"></script>    
+        <script>var slider = appcan.slider({
+  selector : '#slider',
+  aspectRatio:14/16,
+  hasLabel:true,
+  index:0,
+  auto:2000
+});
+slider.set([{
+    img : "imgs/11.jpg",
+    label:"认知破局"
+}])
+
+slider.on("clickItem",function(index,data){
+})
+    </script>
+    </body>
+</html>

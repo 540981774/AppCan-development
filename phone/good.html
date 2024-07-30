@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html class="um landscape min-width-240px min-width-320px min-width-480px min-width-768px min-width-1024px">
+<head>
+    <title>本店产品</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="css/ui-box.css">
+    <link rel="stylesheet" href="css/ui-base.css">
+    <link rel="stylesheet" href="css/ui-color.css">
+    <link rel="stylesheet" href="css/appcan.icon.css">
+    <link rel="stylesheet" href="css/appcan.control.css">
+    <link rel="stylesheet" href="good/css/good.css">
+    <!-- 确保已包含appcan和其他必要的JavaScript文件 -->
+    <script src="js/appcan.js"></script>
+    <script src="js/appcan.listview.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="bc-bg" tabindex="0" data-control="PAGE" id="Page">
+        <div class="uh bc-head ubb bc-border" data-control="HEADER" id="Header">
+            <div class="ub">
+                <div class="nav-btn" id="return">
+                    <div class="ub-img1 icon-left ulev2"></div>
+                </div>
+                <h1 class="ut ub-f1 ulev-3 ut-s tx-c" tabindex="0">本店产品</h1>
+                <div class="nav-btn" id="nav-right">
+                    <div class="fa fa-1g ub-img1"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carousel -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <a href="detail.html?slide=1"><img src="imgs/11.jpg" alt="First slide"></a>
+                </div>
+                <div class="item">
+                    <a href="detail.html?slide=2"><img src="imgs/12.jpg" alt="Second slide"></a>
+                </div>
+                <div class="item">
+                    <a href="detail.html?slide=3"><img src="imgs/13.jpg" alt="Third slide"></a>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <div class="" data-control="CONTENT" id="ScrollContent">
+            <div class="scrollbox">
+                <div class="box_bounce ub ub-ver ub-pc">
+                    <div class="ub-f1"></div>
+                    <div class="bounce_status">下拉更新......</div>
+                    <div class="bounce_status">松手更新......</div>
+                    <div class="bounce_status">更新中......</div>
+                </div>
+                <div class="umar-a sc-bg" id="goodsList">
+                    <!-- Products or content goes here -->
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/appcan.js"></script>
+    <script src="js/appcan.control.js"></script>
+    <script src="js/appcan.scrollbox.js"></script>
+    <script src="js/template.import.js"></script>
+    <script src="js/appcan.listview.js"></script>
+    <script src="js/appcan.optionList.js"></script>
+    <script src="js/appcan.slider.js"></script>
+    <script src="js/appcan.tab.js"></script>
+    <script src="js/appcan.treeview.js"></script>
+    <script src="good/js/good.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#myCarousel').carousel();
+            showGoods(); // 调用显示商品列表的函数
+        });
+    </script>
+</body>
+</html>

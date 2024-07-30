@@ -1,0 +1,62 @@
+#Header {
+    color:rgba(255,255,255,1);
+
+}
+#ScrollContent {
+    padding:2.69em 0em 0em 0em;
+}
+.uinn-at4{
+    padding: 2.69em 0.5em 0em !important;
+}
+.uinn-4a {
+    padding-top: 2.69em !important;
+}
+.uinn-a4{
+    padding:2.69em .5em 0 !important;
+}
+.shop-wh{
+    min-width:3.17125em;
+    min-height:3.3125em;
+}
+.umwh{
+    min-width:0.6em;
+    min-height:1em;
+}
+.ulim12{
+    max-width: 14em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.t-red{
+    color:red;
+}
+.uinn-t{
+    padding: .3em 0;
+}
+.ulev-8{
+    font-size:0.875em;
+}
+.ulev-9{
+    font-size:0.9375em;
+}
+
+.carousel {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.carousel-inner {
+
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-control {
+    font-size: 20px;
+}
+.item{
+    
+}

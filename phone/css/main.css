@@ -1,0 +1,113 @@
+.wh-icon1{
+    width: 2.625em;
+    height: 2.625em;
+}
+#Header {
+    color: rgba(255, 255, 255, 1);
+
+}
+
+#text {
+    font-size: 5px;
+}
+
+
+
+.icon1{
+    width:4em;
+    height:4em;
+    background-image: url('imgs/elec1.png');
+}
+.icon2{
+    width:4em;
+    height:4em;
+    background-image: url('imgs/elec2.png');
+}
+.icon3{
+    width:4em;
+    height:4em;
+    background-image: url('imgs/elec3.png');
+}
+.icon4{
+    width:4em;
+    height:4em;
+    background-image: url('imgs/elec4.png');
+}
+.icon5{
+    width:4em;
+    height:4em;
+    background-image: url('imgs/zaixiantushu.png');
+}
+.icon6{
+    width:4em;
+    height:4em;
+    background-image: url('imgs/tuijian.png');
+}
+.icon7{
+    width:4em;
+    height:4em;
+    background-image: url('imgs/shoucang.png');
+}
+.icon8{
+    width:4em;
+    height:4em;
+    background-image: url('imgs/paihang.png');
+}
+.tc-gr{
+    color: green;
+}
+.img-arrow{
+    color:red;
+    background-image: url('imgs/icon13.png');
+}
+.icon13{
+    width:6em;
+    height:9em;
+    background-image: url('imgs/1.JPG');
+}
+.icon14{
+    width:6em;
+    height:9em;
+    background-image: url('imgs/2.JPG');
+}
+.icon15{
+    width:6em;
+    height:9em;
+    background-image: url('imgs/3.JPG');
+}
+
+.icon16{
+    width:2em;
+    height:2em;
+    background-image: url('imgs/tianqi1.png');
+}
+.icon17{
+    width:6em;
+    height:9em;
+    background-image: url('imgs/4.JPG');
+}
+.icon18{
+    width:6em;
+    height:9em;
+    background-image: url('imgs/5.JPG');
+}
+.icon19{
+    width:6em;
+    height:9em;
+    background-image: url('imgs/6.JPG');
+}
+.icon20{
+    width:6em;
+    height:9em;
+    background-image: url('imgs/7.JPG');
+}
+.icon21{
+    width:6em;
+    height:9em;
+    background-image: url('imgs/8.JPG');
+}
+.icon22{
+    width:6em;
+    height:9em;
+    background-image: url('imgs/9.JPG');
+}
